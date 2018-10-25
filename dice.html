@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Dice Game</title>
+</head>
+<body>
+<div class="container emptyArea">
+
+</div>
+	<div class="container text-center" id="playArea">
+			<h3><a href="" class="newGame">New Game</a> </h3>
+			<div class="container">
+			<div class="row">
+				<h2 class="col-md-4">Player 1<span id="playTurnP1"></span></h2><span class="col-md-4"></span><h2 class="col-md-4">Player 2<span id="playTurnP2"></span></h2>
+			</div>
+			<div class="row">
+				<p class="col-md-4" id="totalScoreP1">0</p><span class="col-md-4" id="diceScore">Dice Val</span><p class="col-md-4" id="totalScoreP2">0</p>
+			</div>
+			<div class="row">
+				<p class="col-md-4 float-right" >Current:<span id="currentScoreP1"> </span></p>
+				<span class="col-md-4"></span>
+				<p class="col-md-4" id="currentScoreP2">Current:<span id="currentScoreP2"> </span></p>
+			</div>
+			</div>
+	</div>
+		<div class="text-center">
+		<a id="roleDice" href="">Roll Dice</a>
+		<a id="holdAndPass" href="">Hold</a>
+		</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
