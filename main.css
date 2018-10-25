@@ -4,3 +4,10 @@
 a{
 	display: block;
 }
+.circle{
+	color:white;
+}
+
+.selected{
+	color:red;
+}
